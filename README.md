@@ -1,7 +1,7 @@
 ## Implementation of MCTS-SPIBB (Scalable Safe Policy Improvement via Monte Carlo Tree Search)
 
 This project can be used to reproduce the experiments presented in:
- - Scalable Safe Policy Improvement via Monte Carlo Tree Search
+- Alberto Castellini, Federico Bianchi*, Edoardo Zorzi*, Thiago D. Simão, Alessandro Farinelli, Matthijs T. J. Spaan, "Scalable Safe Policy Improvement via Monte Carlo Tree Search" 
 
   
 ## Prerequisites
