@@ -6,7 +6,7 @@ This project can be used to reproduce the experiments presented in:
   
 ## Prerequisites
 
-The project is implemented in Python 3.10, Ubuntu 20.04.5 LTS (for the full list of requirements please refer to file requirements.txt)
+The project is implemented in Python 3.10 and tested on Ubuntu 20.04.5 LTS (for the full list of requirements please refer to file requirements.txt)
 
 
 ## Usage
