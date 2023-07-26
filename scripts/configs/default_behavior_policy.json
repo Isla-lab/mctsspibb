@@ -1,0 +1,4 @@
+{
+  "baseline_policy": "softmax",
+  "softmax_temperature": 2
+}

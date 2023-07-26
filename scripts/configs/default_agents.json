@@ -1,0 +1,7 @@
+[
+  {
+    "representation": "src.models:EstimatedEnumeratedMDP",
+    "safety_strategy": "src.policies:PolicyBasedSafeGreedyPolicy",
+    "flat_min_obs": 5
+  }
+]

@@ -1,0 +1,36 @@
+Update the system:
+
+$ sudo apt-get update
+$ sudo apt-get -y upgrade
+
+Install Pip:
+
+$ sudo apt-get install -y python3-pip
+
+Install packages to make the programming environment more consistent:
+
+$ sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+
+Configure a Python virtual environment:
+Install venv to create a virtual environemnt
+ 
+$ sudo apt-get install -y python3-venv
+
+Create a directory that will includes the environment:
+
+$ mkdir mcts_directory_env
+$ cd mcts_directory_env
+
+Create the environment
+$ python3 -m venv mcts_env
+
+Activate the environment
+$ source mcts_env/bin/activate
+
+Extract 'Scalable_SPI_via_MCTS_code.zip' in mcts_directory_env
+
+Install the required libraries:
+$ cd Scalable_SPI_via_MCTS
+$ pip install -r requirements.txt
+
+Launch one of the available experiments. Please refer to README or script_running_examples.txt for the full list.

@@ -1,0 +1,55 @@
+- Gridworld experiment of Section 'Results on convergence'.
+	Run: python results_on_convergence_gridworld.py
+
+  Information about the experiment: It reproduces the experiment of Section 'Results on convergence' on GridWorld of size 3x3, 4x4, 5x5
+  For each size the script computes SPIBB and MCTS-SPIBB policy for all the states of domain, varying the length of dataset (100, 1000, 10000) and for each
+  length it tests the algorithms on 20 dataset.
+  Estimated length of esperiment on our computer: ~1-2 days 
+
+- SysAdmin experiment of Section 'Results on convergence'.
+	Run: python results_on_convergence_sysadmin.py
+
+  Information about the experiment: It reproduces the experiment of Section 'Results on convergence' on SysAdmin with 7 machines
+  For each size the script computes SPIBB and MCTS-SPIBB policy for all the states of domain, varying the length of dataset (100, 1000, 10000) and for each
+  length it tests the algorithms on 20 dataset.
+  Estimated length of esperiment on our computer: ~2-2.5 days 
+
+- Gridworld experiment of Section 'Results on safety'.
+	Run: python results_on_safety_gridworld.py
+
+  Information about the experiment: It reproduces the experiment of Section 'Results on safety' on GridWorld of size 5x5
+  The script computes SPIBB and MCTS-SPIBB policy for all the states of domain, varying the length of dataset (2, 10, 100, 1000, 10000) and for each
+  length it tests the algorithms on 20 dataset.
+  Estimated length of esperiment on our computer: ~2 days 
+  
+
+- SysAdmin experiment of Section 'Results on safety'.
+	Run: python results_on_safety_sysadmin.py
+	
+  Information about the experiment: It reproduces the experiment of Section 'Results on safety' on SysAdmin with 7 machines
+  The script computes SPIBB and MCTS-SPIBB policy for all the states of domain, varying the length of dataset (2, 10, 100, 1000, 10000) and for each
+  length it tests the algorithms on 20 dataset.
+  Estimated length of esperiment on our computer: ~2-2.5 days 
+  
+  Information about the experiment:	
+
+- SysAdmin experiment of Section 'Results on scalability'.
+	Run: python results_on_scalability_sysadmin.py
+
+	Example: python results_on_scalability_sysadmin.py --env_id 'SysAdmin4-v0' --n_machines 4 --batch_size 5000
+	
+	(For the full list of arguments please check from line 24 to 48 in results_on_scalability_sysadmin.py)
+
+  Information about the experiment: It reproduces the experiment of Section 'Results on scalability' on SysAdmin with 4, 7, 10, 12, 13, 20, 35 machines
+  The script calcultates the computational time for SPIBB, SPIBB_DP and MCTS-SPIBB algorithms varying the size of domain.
+  It also computes the performance based on expected discounted return varying the size of domain and for each size it computes the performance of algorithms on 20 dataset.
+  Estimated length of esperiment on our computer: ~2-3 days 
+	
+- Other experiments using MCTS-SPIBB and SPIBB_DP on SysAdmin.
+	Run: python results_on_convergence_and_safety_sysadmin.py
+
+	Example: python results_on_convergence_and_safety_sysadmin.py --env_id 'SysAdmin4-v0' --n_machines 4 --batch_size 5000
+	
+	(For the full list of arguments please check from line 17 to 33 in results_on_convergence_and_safety_sysadmin.py)
+	
+
